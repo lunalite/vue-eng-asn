@@ -1,5 +1,7 @@
 
 build site:
+  tags: 
+    - docker
   image: node:6
   stage: build
   script:
@@ -11,6 +13,8 @@ build site:
       - dist
 
 unit test:
+  tags: 
+    - docker
   image: node:6
   stage: test
   script:
