@@ -2,7 +2,6 @@
 build site:
   tags: 
     - docker
-  image: node:6
   stage: build
   script:
     - npm install --progress=false
@@ -15,7 +14,6 @@ build site:
 unit test:
   tags: 
     - docker
-  image: node:6
   stage: test
   script:
     - npm install --progress=false
