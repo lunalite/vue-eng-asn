@@ -31,14 +31,6 @@
           {
             code: 'gb',
             name: 'english'
-          },
-          {
-            code: 'es',
-            name: 'spanish'
-          },
-          {
-            code: 'br',
-            name: 'brazilian_portuguese'
           }
         ]
       }
